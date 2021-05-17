@@ -1,0 +1,100 @@
+<div class="container">
+  <div>TOTAL</div>
+    <div class="row">
+     
+      <div class="col-4">
+    <mat-card class="example-card d-flex flex-column align-items-center">
+        <mat-card-header>
+          
+          <mat-card-title  class="text-center">Total Cases</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="text-center">
+          <p>
+           {{cases.todayCases}}
+          </p>
+        </mat-card-content>
+        
+      </mat-card>
+    </div>
+
+    <div class="col-4">
+      <mat-card class="example-card d-flex flex-column align-items-center">
+          <mat-card-header>
+            
+            <mat-card-title>Total Deaths</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              {{cases.todayDeaths}}
+            </p>
+          </mat-card-content>
+          
+        </mat-card>
+      </div>
+
+      <div class="col-4">
+        <mat-card class="example-card d-flex flex-column align-items-center">
+            <mat-card-header>
+              
+              <mat-card-title>Total Recovered</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>
+                {{cases.todayRecovered}}
+              </p>
+            </mat-card-content>
+            
+          </mat-card>
+        </div>
+    </div>
+    <div class="mt-4">TODAY</div>
+    <div class="row ">
+    
+      <div class="col-4">
+    <mat-card class="example-card d-flex flex-column align-items-center">
+        <mat-card-header>
+          
+          <mat-card-title>Cases</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{cases.cases}}
+          </p>
+        </mat-card-content>
+        
+      </mat-card>
+    </div>
+
+    <div class="col-4">
+      <mat-card class="example-card d-flex flex-column align-items-center">
+          <mat-card-header>
+            
+            <mat-card-title>Deaths</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              {{cases.deaths}}
+            </p>
+          </mat-card-content>
+          
+        </mat-card>
+      </div>
+
+      <div class="col-4">
+        <mat-card class="example-card d-flex flex-column align-items-center">
+            <mat-card-header>
+              
+              <mat-card-title>Recovered</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>
+                {{cases.recovered}}
+
+              </p>
+            </mat-card-content>
+            
+          </mat-card>
+        </div>
+    </div>
+  
+</div>
